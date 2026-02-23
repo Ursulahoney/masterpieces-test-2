@@ -1,0 +1,81 @@
+name: "Medical Bill Translation Request"
+description: "Submit structured medical billing data for patient-facing translation."
+title: "Bill Translation Request"
+labels: ["bill-translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Medical Bill Translation Request
+        Please fill in the bill header information and paste the line-item CSV data below.
+        **All patient-identifying information must be redacted before submission.**
+
+  - type: input
+    id: patient_name
+    attributes:
+      label: "Patient Name"
+      description: "Enter the patient name or a redacted placeholder (e.g., REDACTED)."
+      placeholder: "REDACTED"
+    validations:
+      required: true
+
+  - type: input
+    id: account_number
+    attributes:
+      label: "Account Number"
+      description: "Enter the account number or a redacted placeholder."
+      placeholder: "REDACTED"
+    validations:
+      required: true
+
+  - type: input
+    id: facility
+    attributes:
+      label: "Facility / Provider"
+      description: "Name of the facility or provider on the bill."
+      placeholder: "Example Hospital"
+    validations:
+      required: true
+
+  - type: input
+    id: statement_date
+    attributes:
+      label: "Statement Date"
+      description: "Date on the billing statement (YYYY-MM-DD)."
+      placeholder: "2026-01-15"
+    validations:
+      required: true
+
+  - type: input
+    id: total_billed
+    attributes:
+      label: "Total Billed"
+      description: "Total billed amount as shown on the statement."
+      placeholder: "12345.00"
+    validations:
+      required: false
+
+  - type: textarea
+    id: line_items
+    attributes:
+      label: "Line Items (CSV)"
+      description: |
+        Paste the full CSV content including the header row.
+        You may also paste tab-separated data directly from a spreadsheet.
+        Required columns: line_id, date_of_service, code, code_type, units, charge
+        Optional column: bill_label
+      placeholder: |
+        line_id,date_of_service,code,code_type,units,charge,bill_label
+        1,2026-01-03,P1021,PROC,2,180.00,Service P1021
+      render: text
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: redaction_confirmation
+    attributes:
+      label: "Redaction Confirmation"
+      description: "You must confirm that all protected health information has been redacted."
+      options:
+        - label: "I confirm that all patient-identifying information has been redacted from the data above."
+          required: true
