@@ -1,0 +1,76 @@
+code,code_type,official_description,plain_english,status,effective_date
+P1001,PROC,Procedure code P1001 - standardized service,Service: 1 level procedure,Active,2026-01-01
+P1002,PROC,Procedure code P1002 - standardized service,Service: 2 level procedure,Active,2026-01-01
+P1003,PROC,Procedure code P1003 - standardized service,Service: 3 level procedure,Active,2026-01-01
+P1004,PROC,Procedure code P1004 - standardized service,Service: 4 level procedure,Active,2026-01-01
+P1005,PROC,Procedure code P1005 - standardized service,Service: 5 level procedure,Active,2026-01-01
+P1006,PROC,Procedure code P1006 - standardized service,Service: 6 level procedure,Active,2026-01-01
+P1007,PROC,Procedure code P1007 - standardized service,Service: 7 level procedure,Active,2026-01-01
+P1008,PROC,Procedure code P1008 - standardized service,Service: 8 level procedure,Active,2026-01-01
+P1009,PROC,Procedure code P1009 - standardized service,Service: 9 level procedure,Active,2026-01-01
+P1010,PROC,Procedure code P1010 - standardized service,Service: 10 level procedure,Active,2026-01-01
+P1011,PROC,Procedure code P1011 - standardized service,Service: 11 level procedure,Active,2026-01-01
+P1012,PROC,Procedure code P1012 - standardized service,Service: 12 level procedure,Active,2026-01-01
+P1013,PROC,Procedure code P1013 - standardized service,Service: 13 level procedure,Active,2026-01-01
+P1014,PROC,Procedure code P1014 - standardized service,Service: 14 level procedure,Active,2026-01-01
+P1015,PROC,Procedure code P1015 - standardized service,Service: 15 level procedure,Active,2026-01-01
+P1016,PROC,Procedure code P1016 - standardized service,Service: 16 level procedure,Active,2026-01-01
+P1017,PROC,Procedure code P1017 - standardized service,Service: 17 level procedure,Active,2026-01-01
+P1018,PROC,Procedure code P1018 - standardized service,Service: 18 level procedure,Active,2026-01-01
+P1019,PROC,Procedure code P1019 - standardized service,Service: 19 level procedure,Active,2026-01-01
+P1020,PROC,Procedure code P1020 - standardized service,Service: 20 level procedure,Active,2026-01-01
+P1021,PROC,Procedure code P1021 - standardized service,Service: 21 level procedure,Active,2026-01-01
+P1022,PROC,Procedure code P1022 - standardized service,Service: 22 level procedure,Active,2026-01-01
+P1023,PROC,Procedure code P1023 - standardized service,Service: 23 level procedure,Active,2026-01-01
+P1024,PROC,Procedure code P1024 - standardized service,Service: 24 level procedure,Active,2026-01-01
+P1025,PROC,Procedure code P1025 - standardized service,Service: 25 level procedure,Active,2026-01-01
+P1026,PROC,Procedure code P1026 - standardized service,Service: 26 level procedure,Active,2026-01-01
+P1027,PROC,Procedure code P1027 - standardized service,Service: 27 level procedure,Active,2026-01-01
+P1028,PROC,Procedure code P1028 - standardized service,Service: 28 level procedure,Active,2026-01-01
+P1029,PROC,Procedure code P1029 - standardized service,Service: 29 level procedure,Active,2026-01-01
+P1030,PROC,Procedure code P1030 - standardized service,Service: 30 level procedure,Active,2026-01-01
+P1031,PROC,Procedure code P1031 - standardized service,Service: 31 level procedure,Active,2026-01-01
+P1032,PROC,Procedure code P1032 - standardized service,Service: 32 level procedure,Active,2026-01-01
+P1033,PROC,Procedure code P1033 - standardized service,Service: 33 level procedure,Active,2026-01-01
+P1034,PROC,Procedure code P1034 - standardized service,Service: 34 level procedure,Active,2026-01-01
+P1035,PROC,Procedure code P1035 - standardized service,Service: 35 level procedure,Active,2026-01-01
+P1036,PROC,Procedure code P1036 - standardized service,Service: 36 level procedure,Active,2026-01-01
+P1037,PROC,Procedure code P1037 - standardized service,Service: 37 level procedure,Active,2026-01-01
+P1038,PROC,Procedure code P1038 - standardized service,Service: 38 level procedure,Active,2026-01-01
+P1039,PROC,Procedure code P1039 - standardized service,Service: 39 level procedure,Active,2026-01-01
+P1040,PROC,Procedure code P1040 - standardized service,Service: 40 level procedure,Active,2026-01-01
+P1041,PROC,Procedure code P1041 - standardized service,Service: 41 level procedure,Active,2026-01-01
+P1042,PROC,Procedure code P1042 - standardized service,Service: 42 level procedure,Active,2026-01-01
+P1043,PROC,Procedure code P1043 - standardized service,Service: 43 level procedure,Active,2026-01-01
+P1044,PROC,Procedure code P1044 - standardized service,Service: 44 level procedure,Active,2026-01-01
+P1045,PROC,Procedure code P1045 - standardized service,Service: 45 level procedure,Active,2026-01-01
+P1046,PROC,Procedure code P1046 - standardized service,Service: 46 level procedure,Active,2026-01-01
+P1047,PROC,Procedure code P1047 - standardized service,Service: 47 level procedure,Active,2026-01-01
+P1048,PROC,Procedure code P1048 - standardized service,Service: 48 level procedure,Active,2026-01-01
+P1049,PROC,Procedure code P1049 - standardized service,Service: 49 level procedure,Active,2026-01-01
+P1050,PROC,Procedure code P1050 - standardized service,Service: 50 level procedure,Active,2026-01-01
+D2001,DRUG,Medication code D2001 - administered dose,Medication dose 1,Active,2026-01-01
+D2002,DRUG,Medication code D2002 - administered dose,Medication dose 2,Active,2026-01-01
+D2003,DRUG,Medication code D2003 - administered dose,Medication dose 3,Active,2026-01-01
+D2004,DRUG,Medication code D2004 - administered dose,Medication dose 4,Active,2026-01-01
+D2005,DRUG,Medication code D2005 - administered dose,Medication dose 5,Active,2026-01-01
+D2006,DRUG,Medication code D2006 - administered dose,Medication dose 6,Active,2026-01-01
+D2007,DRUG,Medication code D2007 - administered dose,Medication dose 7,Active,2026-01-01
+D2008,DRUG,Medication code D2008 - administered dose,Medication dose 8,Active,2026-01-01
+D2009,DRUG,Medication code D2009 - administered dose,Medication dose 9,Active,2026-01-01
+D2010,DRUG,Medication code D2010 - administered dose,Medication dose 10,Active,2026-01-01
+R400,REV,Revenue code R400 - facility charge category,Facility fee category 1,Active,2026-01-01
+R401,REV,Revenue code R401 - facility charge category,Facility fee category 2,Active,2026-01-01
+R402,REV,Revenue code R402 - facility charge category,Facility fee category 3,Active,2026-01-01
+R403,REV,Revenue code R403 - facility charge category,Facility fee category 4,Active,2026-01-01
+R404,REV,Revenue code R404 - facility charge category,Facility fee category 5,Active,2026-01-01
+R405,REV,Revenue code R405 - facility charge category,Facility fee category 6,Active,2026-01-01
+R406,REV,Revenue code R406 - facility charge category,Facility fee category 7,Active,2026-01-01
+R407,REV,Revenue code R407 - facility charge category,Facility fee category 8,Active,2026-01-01
+R408,REV,Revenue code R408 - facility charge category,Facility fee category 9,Active,2026-01-01
+R409,REV,Revenue code R409 - facility charge category,Facility fee category 10,Active,2026-01-01
+M-26,MOD,Professional component modifier,Physician portion only,Active,2026-01-01
+M-TC,MOD,Technical component modifier,Equipment/facility portion only,Active,2026-01-01
+M-59,MOD,Distinct procedural service modifier,Used to show separate service,Active,2026-01-01
+P1049X,PROC,Special procedure code (inactive),Inactive procedure code,Inactive,2025-01-01
+D2011X,DRUG,Special medication code (not yet effective),Not yet effective medication code,Active,2026-02-01
