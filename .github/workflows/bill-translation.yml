@@ -1,0 +1,53 @@
+name: Medical Bill Translation
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  translate-bill:
+    if: contains(github.event.issue.labels.*.name, 'bill-translation')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run translation script
+        id: translate
+        continue-on-error: true
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          CODE_DEFS_PATH: "data/code_definitions_pack_BIG.csv"
+          RESULT_FILE: "result.md"
+        run: python scripts/translate_bill.py
+
+      - name: Post result as issue comment
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let body;
+            try {
+              body = fs.readFileSync('result.md', 'utf8');
+            } catch (e) {
+              body = '**Error:** The translation script failed before producing output. ' +
+                     'Please verify the issue form data is complete and correctly formatted, ' +
+                     'then re-submit.';
+            }
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: body
+            });
